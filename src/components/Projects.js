@@ -7,7 +7,7 @@ function Project() {
     {
       id: 0,
       name: 'iFitNut',
-      image: '../../assets/iFitNut.png',
+      image: '../assets/iFitNut.png',
       info: 'fitnut info',
       liveURL: 'google.com',
       gitHub: 'google.com',
