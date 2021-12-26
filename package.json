@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Seifenan/c20-react-portfolio",
+  "homepage": "https://seifenan.github.io/c20-react-portfolio",
   "name": "c20-react-portfolio",
   "version": "1.0.0",
   "private": true,
@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b testing -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -44,15 +44,5 @@
     "@testing-library/jest-dom": "^5.8.0",
     "@testing-library/react": "^9.5.0",
     "gh-pages": "^3.2.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Seifenan/c20-react-portfolio.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Seifenan/c20-react-portfolio/issues"
   }
 }
