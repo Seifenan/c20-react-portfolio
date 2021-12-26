@@ -3,6 +3,8 @@ import { HashRouter as Router, Route } from 'react-router-dom';
 
 import Nav from './components/Nav';
 
+import Main from './components/Main';
+
 
 // import Header from './components/Header';
 
@@ -18,10 +20,13 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename='/'>
         <div>
           <Nav></Nav>
           <div>
+
+            <Route exact path="/" component={Main} />
+
             <Route exact path="/about" component={About} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/resume" component={Resume} />
@@ -34,8 +39,8 @@ function App() {
 
       </Router>
 
-      <About></About>
-      <ContactForm></ContactForm>
+      {/* <About></About>
+      <ContactForm></ContactForm> */}
 
       <Footer></Footer>
     </div>

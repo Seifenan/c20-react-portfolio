@@ -2,7 +2,7 @@ import React from 'react';
 import coverImage from '../assets/cover/profile-pic.jpg';
 function About() {
   return (
-    <div className='container'>
+    <div className='container dSection'>
       <div className='bio-pic'>
         <img src={coverImage} className='bio-img' alt='main-profile' />
       </div>

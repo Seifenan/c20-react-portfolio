@@ -37,8 +37,9 @@ function ContactForm() {
   };
 
   return (
-    <section>
-      <h1 className='startDiv'>Contact me</h1>
+    <section className='cSection'>
+      <h2>Contact me</h2>
+      <br></br>
       <form className='contactForm' id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
@@ -59,7 +60,7 @@ function ContactForm() {
         )}
         <button className='submitBtn' data-testid="button" type="submit">Submit</button>
       </form>
-      <div className='startDiv'></div>
+      <br></br>
     </section>
   );
 }
