@@ -20,13 +20,12 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      <Router basename='/'>
+      <Router>
         <div>
           <Nav></Nav>
           <div>
 
             <Route exact path="/" component={Main} />
-
             <Route exact path="/about" component={About} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/resume" component={Resume} />
