@@ -1,16 +1,9 @@
 import React from 'react';
 import { HashRouter as Router, Route } from 'react-router-dom';
 
-// import Nav from './components/Nav';
-
-import Main from './components/Main';
-
-
 import Header from './components/Header';
-
-
+import Main from './components/Main';
 import About from './components/About';
-
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import ContactForm from './components/Contact';
