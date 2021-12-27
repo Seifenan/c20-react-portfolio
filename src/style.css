@@ -34,7 +34,7 @@ h2 {
 
 .my-name {
     display: inline-block;
-    font-size: 27px;
+    /* font-size: 27px; */
     margin-left: 20px;
 }
 
@@ -49,7 +49,7 @@ h2 {
 }
 
 .nav-bar div {
-    padding-top: 18px;
+    padding-top: 10px;
     margin-right: 20px;
     float: right;
     font-size: 18px;
@@ -104,12 +104,7 @@ h2 {
     padding-bottom: 7%;
 }
 
-.card-p-one,
-.card-p-two,
-.card-p-three,
-.card-p-four,
-.card-p-five,
-.card-p-six {
+/* .card3 {
     box-shadow: 0px 5px 10px 10px var(--shadow);
     transition: 0.3s;
     width: 30%;
@@ -120,14 +115,41 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+} */
+
+.testC {
+    margin: 2%;
+
 }
 
-.card-p-one:hover,
-.card-p-two:hover,
-.card-p-three:hover,
-.card-p-four:hover,
-.card-p-five:hover,
-.card-p-six:hover {
+.card {
+    box-shadow: 0px 5px 10px 10px var(--shadow);
+    /* transition: 0.3s; */
+    width: 90%;
+    border-radius: 5px;
+    margin: auto;
+    padding: 2%;
+    background-color: var(--light);
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+}
+
+.card2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.card2 a {
+    color: var(--lastn);
+}
+
+.card2 a:hover {
+    color: var(--white);
+}
+
+.card:hover {
     box-shadow: 0px 10px 30px 30px var(--shadow);
     background-color: var(--dark);
     color: var(--white);
@@ -135,20 +157,23 @@ h2 {
 
 }
 
-.container:hover>.card-p-one:not(:hover),
-.container:hover>.card-p-two:not(:hover),
-.container:hover>.card-p-three:not(:hover),
-.container:hover>.card-p-four:not(:hover),
-.container:hover>.card-p-five:not(:hover),
-.container:hover>.card-p-six:not(:hover) {
+.container:hover>.card:not(:hover) {
     /* filter: blur(10px); */
     opacity: 0.5;
 
 }
 
 /* G */
+.resume {
+    text-align: center;
+}
+.resume a {
+    color: var(--lastn);
+}
 
-
+.resume ul {
+    list-style: none;
+}
 /* G */
 
 .contactForm {
@@ -208,7 +233,7 @@ textarea {
     font-size: xx-large;
 }
 
-
+/* 
 @media screen and (max-width: 768px) {
     p {
         font-size: 12px;
@@ -290,14 +315,9 @@ textarea {
         display: inline-block !important;
     }
 
-    .card-p-one,
-    .card-p-two,
-    .card-p-three,
-    .card-p-four,
-    .card-p-five,
-    .card-p-six {
+    .card {
         width: 100% !important;
         margin-left: 0;
         margin-bottom: 7%;
     }
-}
+} */

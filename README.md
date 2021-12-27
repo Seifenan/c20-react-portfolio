@@ -5,7 +5,7 @@
   ## Description  
   This portfolio was created using React.
 
-  [Deployed Link]()
+  [Deployed Link](https://seifenan.github.io/c20-react-portfolio/)
 
   ## Table of Contents 
   * [description](#description)
