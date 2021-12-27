@@ -10,7 +10,7 @@ function Resume() {
       <div className="cSection resume">
         <br></br>
         <a href={resume}>
-          <img src={dImg} alt='download-icon' />
+          <img style={{ width: "10%" }} src={dImg} alt='download-icon' />
           <h2>Download my Resume</h2>
         </a>
         <br></br>
