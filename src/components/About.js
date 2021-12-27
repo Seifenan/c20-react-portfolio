@@ -1,5 +1,5 @@
 import React from 'react';
-import coverImage from '../assets/cover/profile-pic.jpg';
+import coverImage from '../assets/profile-pic.jpg';
 function About() {
   return (
     <div className='container dSection'>

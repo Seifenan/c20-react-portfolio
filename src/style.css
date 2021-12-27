@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 auto;
 }
 
 :root {
@@ -10,7 +10,6 @@
     --black: #000000;
     --lastn: #070bfa;
     --shadow: #7c7c7c;
-
 }
 
 a {
@@ -27,16 +26,26 @@ h2 {
     padding-top: 3%;
 }
 
+.intro {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 2%;
+}
+
 .nav-bar {
     padding: 50px;
     background-color: var(--black);
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .my-name {
     display: inline-block;
-    font-size: 27px;
     margin-left: 20px;
 }
+
 
 .my-name:hover {
     filter: brightness(80%);
@@ -49,7 +58,7 @@ h2 {
 }
 
 .nav-bar div {
-    padding-top: 18px;
+    padding-top: 10px;
     margin-right: 20px;
     float: right;
     font-size: 18px;
@@ -104,52 +113,52 @@ h2 {
     padding-bottom: 7%;
 }
 
-.card-p-one,
-.card-p-two,
-.card-p-three,
-.card-p-four,
-.card-p-five,
-.card-p-six {
-    box-shadow: 0px 5px 10px 10px var(--shadow);
-    transition: 0.3s;
-    width: 30%;
-    border-radius: 5px;
-    margin: 1.6%;
-    padding: 2%;
-    background-color: var(--light);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+
+.testC {
+    margin: 2%;
 }
 
-.card-p-one:hover,
-.card-p-two:hover,
-.card-p-three:hover,
-.card-p-four:hover,
-.card-p-five:hover,
-.card-p-six:hover {
+.card {
+    box-shadow: 0px 5px 10px 10px var(--shadow);
+    width: 80%;
+    border-radius: 5px;
+    margin: auto;
+    padding: 2%;
+    background-color: var(--light);
+}
+
+.card2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.card2 a {
+    color: var(--lastn);
+}
+
+.card2 a:hover {
+    color: var(--white);
+}
+
+.card:hover {
     box-shadow: 0px 10px 30px 30px var(--shadow);
     background-color: var(--dark);
     color: var(--white);
     transform: scale(1.2);
-
 }
 
-.container:hover>.card-p-one:not(:hover),
-.container:hover>.card-p-two:not(:hover),
-.container:hover>.card-p-three:not(:hover),
-.container:hover>.card-p-four:not(:hover),
-.container:hover>.card-p-five:not(:hover),
-.container:hover>.card-p-six:not(:hover) {
-    /* filter: blur(10px); */
-    opacity: 0.5;
-
+.resume {
+    text-align: center;
 }
 
-/* G */
+.resume a {
+    color: var(--lastn);
+}
 
-
-/* G */
+.resume ul {
+    list-style: none;
+}
 
 .contactForm {
     border-radius: 5px;
@@ -160,8 +169,6 @@ h2 {
     margin: auto;
 }
 
-
-/* G */
 input,
 textarea {
     width: 100%;
@@ -172,9 +179,6 @@ textarea {
     margin-bottom: 20px;
 }
 
-
-/* G */
-
 .submitBtn {
     background-color: var(--white);
     color: var(--black);
@@ -184,120 +188,18 @@ textarea {
     cursor: pointer;
 }
 
-/* G */
-
 .submitBtn:hover {
     background-color: var(--black);
     color: var(--white);
 }
 
-
-/* G */
-
 .footer {
-    padding: 4%;
+    padding: 2%;
     text-align: center;
     background-color: var(--light);
 }
 
-
-/* G */
-
 .footer a {
     color: var(--black);
     font-size: xx-large;
-}
-
-
-@media screen and (max-width: 768px) {
-    p {
-        font-size: 12px;
-    }
-
-    h2 {
-        font-size: 16px;
-    }
-
-    .nav-bar div {
-        padding-top: 14px;
-        margin-right: 0px;
-        font-size: 14px;
-    }
-
-    .my-name {
-        font-size: 20px;
-    }
-
-    .nav-bar div ul li {
-        margin-left: 15px;
-    }
-
-    .container h3 {
-        font-size: 13px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    p {
-        font-size: 10px;
-    }
-
-    h2 {
-        font-size: 14px;
-    }
-
-    .nav-bar div {
-        padding-top: 9px;
-        margin-right: 0px;
-        font-size: 12px;
-    }
-
-    .my-name {
-        font-size: 16px;
-    }
-
-    .nav-bar div ul li {
-        margin-left: 10px;
-    }
-
-    .container h3 {
-        font-size: 11px;
-    }
-}
-
-@media screen and (max-width: 300px) {
-    p {
-        font-size: 10px;
-    }
-
-    h2 {
-        font-size: 14px;
-    }
-
-    .nav-bar div {
-        font-size: 10px;
-    }
-
-    .my-name {
-        font-size: 14px;
-    }
-
-    .nav-bar div ul li {
-        margin-left: 1px;
-    }
-
-    .container {
-        display: inline-block !important;
-    }
-
-    .card-p-one,
-    .card-p-two,
-    .card-p-three,
-    .card-p-four,
-    .card-p-five,
-    .card-p-six {
-        width: 100% !important;
-        margin-left: 0;
-        margin-bottom: 7%;
-    }
 }

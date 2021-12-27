@@ -19,7 +19,7 @@ function ContactForm() {
     if (e.target.name === 'email') {
       const isValid = validateEmail(e.target.value);
       if (!isValid) {
-        setErrorMessage('Your email is invalid.');
+        setErrorMessage('Your Email is invalid.');
       } else {
         setErrorMessage('');
       }

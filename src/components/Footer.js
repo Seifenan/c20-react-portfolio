@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
+import { FaLinkedin, FaGithubSquare, FaFacebookSquare } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -7,6 +7,7 @@ function Footer() {
       <ul className="footer">
         <a href="https://www.linkedin.com/in/seifenan/" target="blank"><FaLinkedin></FaLinkedin></a>
         <a href="https://github.com/Seifenan" target="blank"><FaGithubSquare></FaGithubSquare></a>
+        <a href="https://www.facebook.com/seifenan" target="blank"><FaFacebookSquare></FaFacebookSquare></a>
       </ul>
       <h2>Made by Seif <span className="lastn">Enan</span></h2>
       <p>

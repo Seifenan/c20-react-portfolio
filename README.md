@@ -5,7 +5,7 @@
   ## Description  
   This portfolio was created using React.
 
-  [Deployed Link]()
+  [Deployed Link](https://seifenan.github.io/c20-react-portfolio/)
 
   ## Table of Contents 
   * [description](#description)
@@ -17,7 +17,7 @@
   ## Usage 
   Thank you for visiting my repo!
 
-  <img src=""/>
+  <img src="src/assets/screenshot.png"/>
   
   ## Questions
   To check out more of my projects, visit my [GitHub](https://github.com/seifenan) page.
