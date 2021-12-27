@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/c20-react-portfolio/static/css/main.e48c18cf.chunk.css",
+    "main.js": "/c20-react-portfolio/static/js/main.9385cfa0.chunk.js",
+    "main.js.map": "/c20-react-portfolio/static/js/main.9385cfa0.chunk.js.map",
+    "runtime-main.js": "/c20-react-portfolio/static/js/runtime-main.b4c48c33.js",
+    "runtime-main.js.map": "/c20-react-portfolio/static/js/runtime-main.b4c48c33.js.map",
+    "static/js/2.32dbbf51.chunk.js": "/c20-react-portfolio/static/js/2.32dbbf51.chunk.js",
+    "static/js/2.32dbbf51.chunk.js.map": "/c20-react-portfolio/static/js/2.32dbbf51.chunk.js.map",
+    "static/js/3.2ffa3a57.chunk.js": "/c20-react-portfolio/static/js/3.2ffa3a57.chunk.js",
+    "static/js/3.2ffa3a57.chunk.js.map": "/c20-react-portfolio/static/js/3.2ffa3a57.chunk.js.map",
+    "index.html": "/c20-react-portfolio/index.html",
+    "static/css/main.e48c18cf.chunk.css.map": "/c20-react-portfolio/static/css/main.e48c18cf.chunk.css.map",
+    "static/js/2.32dbbf51.chunk.js.LICENSE.txt": "/c20-react-portfolio/static/js/2.32dbbf51.chunk.js.LICENSE.txt",
+    "static/media/Enan-resume.da328af7.pdf": "/c20-react-portfolio/static/media/Enan-resume.da328af7.pdf",
+    "static/media/bored-genie.4db31d64.png": "/c20-react-portfolio/static/media/bored-genie.4db31d64.png",
+    "static/media/code-quiz.14fc36e3.png": "/c20-react-portfolio/static/media/code-quiz.14fc36e3.png",
+    "static/media/iFitNut.763ec76e.png": "/c20-react-portfolio/static/media/iFitNut.763ec76e.png",
+    "static/media/password-gen.79d9f5fb.png": "/c20-react-portfolio/static/media/password-gen.79d9f5fb.png",
+    "static/media/profile-pic.e94cbe01.jpg": "/c20-react-portfolio/static/media/profile-pic.e94cbe01.jpg",
+    "static/media/scheduler.2735ec82.png": "/c20-react-portfolio/static/media/scheduler.2735ec82.png",
+    "static/media/weather-dashboard.0ecc366b.png": "/c20-react-portfolio/static/media/weather-dashboard.0ecc366b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4c48c33.js",
+    "static/js/2.32dbbf51.chunk.js",
+    "static/css/main.e48c18cf.chunk.css",
+    "static/js/main.9385cfa0.chunk.js"
+  ]
+}
