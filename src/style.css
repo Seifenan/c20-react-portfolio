@@ -34,11 +34,15 @@ h2 {
 }
 
 .nav-bar {
-    padding: 50px;
+    padding: 3%;
     background-color: var(--black);
     position: fixed;
     width: 100%;
     top: 0;
+}
+
+.navpd {
+    padding-bottom: 10%;
 }
 
 .my-name {
@@ -82,8 +86,8 @@ h2 {
 }
 
 .cSection {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 
@@ -131,6 +135,16 @@ h2 {
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
+}
+
+.resItems {
+    display: flex;
+    flex-direction: row;
+}
+
+.resItem {
+    padding: 2%;
+    /* display: flex; */
 }
 
 .card2 a {
@@ -202,4 +216,132 @@ textarea {
 .footer a {
     color: var(--black);
     font-size: xx-large;
+}
+
+@media screen and (max-width: 900px) {
+    .navpd {
+        padding-bottom: 12%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .my-name {
+        margin-left: 0px;
+        font-size: smaller;
+    }
+
+    .nav-bar div {
+        padding-top: 7px;
+        margin-right: 0px;
+    }
+
+    p,
+    h2,
+    h3,
+    a,
+    li,
+    label {
+        font-size: 12px;
+    }
+
+    .cSection {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .navpd {
+        padding-bottom: 12%;
+    }
+
+    .submitBtn {
+        transform: scale(.8);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .my-name {
+        margin-left: 0px;
+        font-size: x-small;
+    }
+
+    .nav-bar div {
+        padding-top: 3px;
+        margin-right: 0px;
+    }
+
+    p,
+    h2,
+    h3,
+    a,
+    li,
+    label {
+        font-size: 10px;
+    }
+
+    .cSection {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .navpd {
+        padding-bottom: 15%;
+    }
+
+    .submitBtn {
+        transform: scale(.7);
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .my-name {
+        font-size: xx-small;
+    }
+
+    .nav-bar div {
+        padding-top: 0px;
+        /* float: left; */
+    }
+
+    p,
+    h2,
+    h3,
+    a,
+    li,
+    label {
+        font-size: 10px;
+    }
+
+    .cSection {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .navpd {
+        padding-bottom: 20%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    p,
+    h2,
+    h3,
+    a,
+    li,
+    label {
+        font-size: 9px;
+    }
+
+    .cSection {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .navpd {
+        padding-bottom: 37%;
+    }
+
+    .submitBtn {
+        transform: scale(.6);
+    }
 }

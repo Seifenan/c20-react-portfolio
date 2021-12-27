@@ -17,8 +17,8 @@ function Resume() {
       </div>
       <div className="cSection resume">
         <h2>My Proficiencies</h2>
-        <div className="card2">
-          <ul>
+        <div className="resItems">
+          <ul className="resItem">
             <h3>Foundation</h3>
             <li>Git</li>
             <li>HTML</li>
@@ -26,7 +26,7 @@ function Resume() {
             <li>JavaScript</li>
             <li>Web, Third-Party & Server-Side API's</li>
           </ul>
-          <ul>
+          <ul className="resItem">
             <h3>Technical</h3>
             <li>Node.JS</li>
             <li>Object Oriented Programming (OOP)</li>
@@ -35,7 +35,7 @@ function Resume() {
             <li>Object Relational Mapping (ORM)</li>
             <li>Model View Controller (MVC)</li>
           </ul>
-          <ul>
+          <ul className="resItem">
             <h3>Performance</h3>
             <li>NoSQL</li>
             <li>Progressive Web Applications (PWA)</li>

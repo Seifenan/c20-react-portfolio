@@ -10,7 +10,7 @@ function Header() {
           <Nav></Nav>
         </div>
       </div>
-      <div style={{ paddingBottom: "140px" }}></div>
+      <div className='navpd'></div>
     </div>
   );
 }
